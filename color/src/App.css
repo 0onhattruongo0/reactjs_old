@@ -1,0 +1,24 @@
+.App{
+  width: 80%;
+  margin: auto;
+}
+.App__top{
+  display: flex;
+  justify-content: space-between;
+}
+.top_left,.top_right{
+  width: 45%;
+  height: 200px;
+}
+.active{
+  border: 3px solid;
+}
+.top__left_bot{
+  margin-top: 100px;
+}
+
+span{
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
